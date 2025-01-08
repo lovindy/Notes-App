@@ -1,10 +1,9 @@
-<!-- AppLayout.vue -->
 <template>
   <v-app>
     <!-- App Bar -->
     <v-app-bar elevation="1">
       <template v-slot:prepend>
-        <div class="d-flex align-center">
+        <div class="d-flex align-center mx-4">
           <v-img
             src="https://cdn2.iconfinder.com/data/icons/business-office-icons/256/To-do_List-512.png"
             alt="Notes Logo"
@@ -12,9 +11,8 @@
             height="40"
             class="me-3"
           ></v-img>
-          <v-app-bar-title class="text-h6 font-weight-bold">
-            My Notes Application
-          </v-app-bar-title>
+          <!-- Hide title on small screens -->
+          <h3 class="text-h6 font-weight-bold d-none d-sm-flex">Notes App</h3>
         </div>
       </template>
 

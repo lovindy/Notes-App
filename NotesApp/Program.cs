@@ -82,7 +82,7 @@ builder.Services.AddCors(options =>
         builder =>
         {
             builder
-                .WithOrigins("http://localhost:5173") // Frontend URL
+                .WithOrigins("http://localhost:5173", "https://lovindy.github.io") // Frontend URL
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials();
