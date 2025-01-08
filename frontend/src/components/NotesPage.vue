@@ -39,13 +39,13 @@
 import { ref, onMounted } from "vue";
 import { useNotesStore } from "../stores/notes.store";
 import type { Note } from "../interfaces/types";
-import NotesHeader from "../components/NotesHeader.vue";
-import NotesFilters from "../components/NotesFilters.vue";
-import NotesGrid from "../components/NotesGrid.vue";
-import NoteDialog from "../components/NoteDialog.vue";
-import DeleteConfirmationDialog from "../components/DeleteConfirmationDialog.vue";
-import LoadingState from "../components/LoadingState.vue";
-import ErrorState from "../components/ErrorState.vue";
+import NotesHeader from "./NotesHeader.vue";
+import NotesFilters from "./NotesFilters.vue";
+import NotesGrid from "./NotesGrid.vue";
+import NoteDialog from "./NoteDialog.vue";
+import DeleteConfirmationDialog from "./DeleteConfirmationDialog.vue";
+import LoadingState from "./LoadingState.vue";
+import ErrorState from "./ErrorState.vue";
 
 const store = useNotesStore();
 

@@ -3,7 +3,6 @@ import { useAuthStore } from "../stores/auth.store";
 import HomeView from "../views/HomeView.vue";
 import LoginView from "../views/LoginView.vue";
 import RegisterView from "../views/RegisterView.vue";
-import NotesView from "../views/NotesView.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -25,12 +24,6 @@ const router = createRouter({
       name: "register",
       component: RegisterView,
       meta: { guest: true },
-    },
-    {
-      path: "/notes",
-      name: "notes",
-      component: NotesView,
-      meta: { requiresAuth: true },
     },
   ],
 });

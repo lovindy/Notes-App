@@ -5,6 +5,6 @@
 </template>
 
 <script setup lang="ts">
-import NotesView from './NotesView.vue';
+import NotesView from '../components/NotesPage.vue';
 import AppLayout from '../components/NavBar.vue';
 </script>
