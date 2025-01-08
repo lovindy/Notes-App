@@ -15,3 +15,11 @@ export interface LoginCredentials {
   username: string;
   password: string;
 }
+
+export type SortField = "createdAt" | "title" | "updatedAt";
+export type SortDirection = "asc" | "desc";
+
+export interface NoteFormData {
+  title: string;
+  content: string;
+}
