@@ -12,7 +12,7 @@ The application follows the principles of Clean Architecture, with a clear separ
 
 ```
 NotesApp/
-├── Controllers/         # API Controllers
+├── Controllers/        # API Controllers
 ├── DTOs/               # Data Transfer Objects
 ├── Models/             # Domain Models
 ├── Repositories/       # Data Access Layer
