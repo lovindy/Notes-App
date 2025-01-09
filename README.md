@@ -4,7 +4,7 @@ A notes application built with ASP.NET Core following clean architecture princip
 
 ## Architecture Overview
 
-[//]: # (Architecture Diagram goes here - Upload the clean architecture diagram above and reference it here)
+![Architecture Diagram](https://raw.githubusercontent.com/lovindy/Notes-App/32fdd4fd26740e679139fc45f077b579fe6f65b7/Design%20Pattern.png)
 
 The application follows the principles of Clean Architecture, with a clear separation of concerns between layers.
 
