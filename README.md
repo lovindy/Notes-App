@@ -91,7 +91,7 @@ The application uses JWT (JSON Web Token) authentication:
 
 ## Technologies Used
 
-- ASP.NET Core 7.0
+- ASP.NET Core 8.0
 - Dapper
 - SQL Server
 - JWT for Authentication
